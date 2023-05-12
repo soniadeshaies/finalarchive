@@ -1,0 +1,119 @@
+body{
+    /* background-color: black; */
+    color: black;
+    margin: 0;
+    font-family: "digital-7", sans-serif;
+}
+
+#html-body{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* #color-input{
+    display: flex;
+    flex-direction: column;
+    padding-top: 200px;
+    width: 50%;
+    margin: auto;
+} */
+
+#ocean {
+    display: flex;
+    text-align: center;
+    background-color: black;
+    background-image: url('img/back.jpg');
+    background-size:cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+/* p {
+    padding-top: 20px;
+    padding-bottom: 15px;
+    font-size: 30pt;
+    color: #17FF32;
+} */
+
+#text {
+    padding-top: 70px;
+    padding-bottom: 90px;
+    text-align: center;
+   
+}
+
+.yas:hover {
+    opacity: 60%;
+}
+
+section {
+    margin: 40px 0 80px 0;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-column-gap: 24px;
+    grid-auto-flow: dense;
+
+}
+
+.artwork {
+    grid-column: 2 /span 5;
+    width: 510px;
+    text-align: center;
+}
+
+.description {
+    grid-column: 7 /span 5; 
+    background-color: white;
+    font-family: "novel-mono-pro", sans-serif;
+    padding-left: 15px;
+    padding-right: 10px;
+    margin-top: 10px;
+    font-size: 13pt;
+    height: 335px;
+}
+
+#project1 {
+    background-image: url('img/background_leaf.png');
+    background-size:cover;
+    background-position: center; 
+    background-repeat: repeat;
+}
+
+#project2 {
+    background-image: url('img/blue-background.png');
+    background-size:cover;
+    background-position: center; 
+    background-repeat: repeat;
+}
+
+#project3 {
+    background-image: url('img/flower.png');
+    background-size:cover;
+    background-position: center; 
+    background-repeat: repeat; 
+}
+
+#brain {
+    color: rgb(199, 23, 23);
+    text-decoration: none;
+}
+
+#eyeball {
+    color: rgb(246, 93, 32);
+    text-decoration: none;
+}
+
+#slay {
+    color: rgb(143, 59, 203);
+    text-decoration: none;
+}
+
+h1{
+    background-color: white;
+    text-align: center;
+    font-size: 45pt;
+    margin-top: 70px;
+}
